@@ -1,47 +1,124 @@
-@media (max-width: 768px) {
+/* ===== BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-            #videoContainer {
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+}
 
-                position: relative;
+.ViostreamIframe {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
-                width: 100%;
+/* ===== CONTAINER + PLAYER ===== */
+#videoContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+    /* Handle notch HP */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+}
 
-                height: 0;
+#player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
 
-                padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+/* PILIH SALAH SATU: */
 
-                overflow: hidden;
+/* OPSI 1: Persis kayak screenshot - ada bar hitam atas bawah */
+#player {
+    object-fit: contain; 
+}
 
-                background: #000;
+/* OPSI 2: Full layar beneran, gak ada bar hitam tapi sisi kiri-kanan kepotong dikit */
+#player {
+    object-fit: cover;
+}
 
-            }
+/* ===== CONTROLS BIAR GAK KETUTUPAN ===== */
+.video-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom));
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, transparent 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
 
-            #player {
+.control-left, .control-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
-                position: absolute;
+.control-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+}
 
-                top: 0;
+/* ===== QUALITY & CONTEXT MENU ===== */
+.quality-menu, .context-menu {
+    position: fixed;
+    bottom: 70px;
+    right: 12px;
+    background: rgba(28,28,28,0.95);
+    border-radius: 8px;
+    padding: 8px 0;
+    z-index: 10001;
+    display: none;
+}
 
-                left: 0;
+.quality-menu.active, .context-menu.active {
+    display: block;
+}
 
-                width: 100%;
+/* ===== ERROR ===== */
+#error {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: rgba(255,0,0,0.8);
+    padding: 16px 24px;
+    border-radius: 8px;
+    z-index: 99999;
+    display: none;
+}
 
-                height: 100%;
-
-                object-fit: contain;
-
-            }
-
-        }
-
-        @media (orientation: landscape) {
-
-            #videoContainer {
-
-                padding-bottom: 0;
-
-                height: 100vh;
-
-            }
-
-        }
+/* ===== KHUSUS LANDSCAPE ===== */
+@media (orientation: landscape) {
+    #player {
+        object-fit: cover; /* Landscape wajib cover biar full */
+    }
+}
