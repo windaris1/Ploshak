@@ -12,52 +12,40 @@ html, body {
     overflow: hidden;
 }
 
+/* ===== PLAYER CONTAINER FULL LAYAR ===== */
 .ViostreamIframe {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-/* ===== CONTAINER + PLAYER ===== */
-#videoContainer {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background: #000;
-    overflow: hidden;
     /* Handle notch HP */
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
 }
 
+#videoContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== VIDEO TETEP 16:9, GAK DI-FULL-IN ===== */
 #player {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     width: auto;
     height: auto;
+    object-fit: contain; /* Ini kuncinya - video gak ke-stretch/crop */
+    background: #000;
 }
 
-/* PILIH SALAH SATU: */
-
-/* OPSI 1: Persis kayak screenshot - ada bar hitam atas bawah */
-#player {
-    object-fit: contain; 
-}
-
-/* OPSI 2: Full layar beneran, gak ada bar hitam tapi sisi kiri-kanan kepotong dikit */
-#player {
-    object-fit: cover;
-}
-
-/* ===== CONTROLS BIAR GAK KETUTUPAN ===== */
+/* ===== CONTROLS NEMPEL DI BAWAH LAYAR ===== */
 .video-controls {
     position: fixed;
     bottom: 0;
@@ -65,7 +53,7 @@ html, body {
     width: 100%;
     padding: 12px;
     padding-bottom: calc(12px + env(safe-area-inset-bottom));
-    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, transparent 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, transparent 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +74,34 @@ html, body {
     padding: 8px;
 }
 
-/* ===== QUALITY & CONTEXT MENU ===== */
+.logo img {
+    height: 24px;
+}
+
+/* ===== LIVE INDICATOR ===== */
+.live-indicator {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.live-indicator .dot {
+    width: 8px;
+    height: 8px;
+    background: #ff0000;
+    border-radius: 50%;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* ===== MENU ===== */
 .quality-menu, .context-menu {
     position: fixed;
     bottom: 70px;
@@ -102,6 +117,13 @@ html, body {
     display: block;
 }
 
+.quality-menu-item, .context-menu-item {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
 /* ===== ERROR ===== */
 #error {
     position: fixed;
@@ -114,11 +136,4 @@ html, body {
     border-radius: 8px;
     z-index: 99999;
     display: none;
-}
-
-/* ===== KHUSUS LANDSCAPE ===== */
-@media (orientation: landscape) {
-    #player {
-        object-fit: cover; /* Landscape wajib cover biar full */
-    }
 }
