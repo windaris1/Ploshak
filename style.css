@@ -1,8 +1,9 @@
-/* ===== BASE ===== */
+/* ===== RESET & BASE ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 html, body {
@@ -10,9 +11,10 @@ html, body {
     height: 100%;
     background: #000;
     overflow: hidden;
+    font-family: Arial, sans-serif;
 }
 
-/* ===== PLAYER CONTAINER FULL LAYAR ===== */
+/* ===== FULL SCREEN WRAPPER ===== */
 .ViostreamIframe {
     position: fixed;
     top: 0;
@@ -23,6 +25,8 @@ html, body {
     /* Handle notch HP */
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
 }
 
 #videoContainer {
@@ -33,19 +37,28 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
-/* ===== VIDEO TETEP 16:9, GAK DI-FULL-IN ===== */
+/* ===== VIDEO NORMAL - LEBAR FULL, RASIO JAGA ===== */
 #player {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
-    object-fit: contain; /* Ini kuncinya - video gak ke-stretch/crop */
+    max-height: 100%;
+    object-fit: contain;
     background: #000;
 }
 
-/* ===== CONTROLS NEMPEL DI BAWAH LAYAR ===== */
+/* ===== LANDSCAPE: TINGGI YANG FULL ===== */
+@media (orientation: landscape) {
+    #player {
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ===== CONTROLS ===== */
 .video-controls {
     position: fixed;
     bottom: 0;
@@ -58,12 +71,13 @@ html, body {
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
+    transition: opacity 0.3s;
 }
 
 .control-left, .control-right {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
 }
 
 .control-button {
@@ -71,29 +85,49 @@ html, body {
     border: none;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
     padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-button:active {
+    transform: scale(0.9);
 }
 
 .logo img {
-    height: 24px;
+    height: 28px;
+    width: auto;
 }
 
-/* ===== LIVE INDICATOR ===== */
+/* ===== LIVE & DELAY INDICATOR ===== */
 .live-indicator {
     color: #fff;
     font-size: 12px;
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
+    background: #ff0000;
+    padding: 4px 8px;
+    border-radius: 4px;
 }
 
 .live-indicator .dot {
     width: 8px;
     height: 8px;
-    background: #ff0000;
+    background: #fff;
     border-radius: 50%;
     animation: blink 1.5s infinite;
+}
+
+.delay-indicator {
+    color: #ffcc00;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 @keyframes blink {
@@ -101,27 +135,92 @@ html, body {
     50% { opacity: 0.3; }
 }
 
-/* ===== MENU ===== */
+/* ===== VOLUME SLIDER ===== */
+.volume-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.volume-slider-container {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(28,28,28,0.95);
+    padding: 12px;
+    border-radius: 8px;
+    display: none;
+}
+
+.volume-container:hover .volume-slider-container,
+.volume-slider-container.active {
+    display: block;
+}
+
+.volume-slider {
+    width: 100px;
+    height: 4px;
+    accent-color: #ff0000;
+}
+
+/* ===== QUALITY MENU ===== */
 .quality-menu, .context-menu {
     position: fixed;
     bottom: 70px;
     right: 12px;
-    background: rgba(28,28,28,0.95);
+    background: rgba(28,28,28,0.98);
     border-radius: 8px;
     padding: 8px 0;
+    min-width: 200px;
     z-index: 10001;
     display: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 
 .quality-menu.active, .context-menu.active {
     display: block;
 }
 
+.quality-menu-title {
+    color: #aaa;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-bottom: 1px solid #444;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
 .quality-menu-item, .context-menu-item {
     color: #fff;
     font-size: 14px;
-    padding: 10px 16px;
+    padding: 12px 16px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quality-menu-item:hover, .context-menu-item:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.quality-menu-item i {
+    opacity: 0;
+    width: 16px;
+}
+
+.quality-menu-item.active i {
+    opacity: 1;
+}
+
+.context-menu-item.info {
+    color: #aaa;
+    cursor: default;
+}
+
+.context-menu-item.info:hover {
+    background: none;
 }
 
 /* ===== ERROR ===== */
@@ -131,9 +230,18 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: rgba(255,0,0,0.8);
+    font-size: 16px;
+    background: rgba(255,0,0,0.9);
     padding: 16px 24px;
     border-radius: 8px;
     z-index: 99999;
     display: none;
+    text-align: center;
+}
+
+/* ===== MATIIN SHAKA UI BAWAAN ===== */
+.shaka-controls-container,
+.shaka-overflow-menu,
+.shaka-settings-menu {
+    display: none !important;
 }
