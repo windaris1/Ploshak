@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>ARTPLAY</title>
+
+    <meta content='noindex, nofollow, noarchive' name='robots'/>
+
+    <meta content='no-referrer' name='referrer'/>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'/>
+
+  
+<script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.16.1/shaka-player.ui.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/shaka-player/4.16.1/controls.css">
+
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>
+
+<link href='https://cdn.jsdelivr.net/gh/sendyarf/ch24/css/styles.css' rel='stylesheet'/>
+
+<link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'/>
+
+
+</head>
+
+<body>
+
+    <div class='ViostreamIframe'>
+
+        <div id='videoContainer'>
+
+            <video id='player' poster="https://sibaltv.pages.dev/sibco.jpg" autoplay playsinline webkit-playsinline autoplay></video>
+       
+
+            <div class='quality-menu' id='qualityMenu'>
+
+                <div class='quality-menu-title'>Video Quality</div>
+
+                <div id='qualityOptions'></div>
+
+                <div class='quality-menu-item' id='autoQuality'>
+
+                    <i class='fas fa-check'></i> Auto (Default)
+
+                </div>
+
+            </div>
+
+            
+
+            <div class='context-menu' id='contextMenu'>
+
+                <div class='context-menu-item info' id='videoInfo'>Memuat informasi...</div>
+
+                <div class='context-menu-item info'>
+
+                    <i class='fas fa-info-circle'></i> LISKA TV
+
+                </div>
+
+            </div>
+
+            
+
+            <div class='video-controls'>
+
+                <div class='control-left'>
+
+                    <button class='control-button' id='playPauseBtn' aria-label='Play/Pause'>
+
+                        <i class='fas fa-play' id='playIcon'></i>
+
+                    </button>
+
+                    <div class='volume-container'>
+
+                        <button class='control-button' id='volumeBtn' aria-label='Volume Control'>
+
+                            <i class='fas fa-volume-up' id='volumeIcon'></i>
+
+                        </button>
+
+                        <div class='volume-slider-container' id='volumeSliderContainer'>
+
+                            <input type='range' min='0' max='100' value='100' class='volume-slider' id='volumeSlider'>
+
+                        </div>
+
+                    </div>
+
+                    <div class='live-indicator' id='liveIndicator'>
+
+                        <span class='dot'></span>LIVE
+
+                    </div>
+
+                    <div class='delay-indicator' id='delayIndicator'>
+
+                        <i class='fas fa-exclamation-triangle'></i><span id='delaySeconds'>0</span>s
+
+                    </div>
+
+                </div>
+
+                <div class='control-right'>
+
+                    <a class='logo' href='https://sibaltv.pages.dev/' target='_blank' aria-label='Brand Logo'>
+
+                        <img alt='logo' src='shaco.png' onerror='this.src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="'>
+
+                    </a>
+
+                    <button class='control-button' id='qualityBtn' aria-label='Quality Settings'>
+
+                        <i class='fas fa-cog'></i>
+
+                    </button>
+
+                    <button class='control-button' id='fullscreenBtn' aria-label='Toggle Fullscreen'>
+
+                        <i class='fas fa-expand' id='fullscreenIcon'></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id='error' style='display: none;'>Access Denied</div>
+
+    
+<script src='index.js'></script>
+
+<script src='https://cdn.jsdelivr.net/gh/sendyarf/ch24/js/utils.js'></script>
+
+<script src='https://cdn.jsdelivr.net/gh/sendyarf/ch24/js/player.js'></script>
+
+<script src='https://cdn.jsdelivr.net/gh/sendyarf/ch24/js/controls.js'></script>
+
+<script src='https://cdn.jsdelivr.net/gh/sendyarf/ch24/js/quality.js'></script>
+
+
+ 
+</body>
+</html>
