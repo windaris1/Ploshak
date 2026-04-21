@@ -185,14 +185,14 @@ html, body {
 
 /* ===== OVERRIDE PADDING BIAR LEBIH RAPET ===== */
 .control-button {
-    padding: 4px !important; /* Tadinya 6px */
+    padding: 5px !important; /* Tadinya 6px */
     min-width: 28px !important; /* Tadinya 32px */
     height: 28px !important;
-    font-size: 17px !important; /* Turun 1px doang */
+    font-size: 18px !important; /* Turun 1px doang */
 }
 
 .live-indicator {
-    padding: 2px 5px !important; /* Tadinya 3px 6px */
+    padding: 3px 6px !important; /* Tadinya 3px 6px */
     font-size: 10px !important;
     gap: 3px !important;
 }
@@ -203,7 +203,7 @@ html, body {
 }
 
 .logo {
-    margin: 0 2px !important; /* Tadinya 4px */
+    margin: 0 3px !important; /* Tadinya 4px */
 }
 
 .logo img {
