@@ -1,4 +1,24 @@
 const ConfiguracionCanales = {
+  "tnt": {
+    url: "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+    type: "mpd",
+    keys: [{ k1: "294b5761cefc22d0c6312939e13d8278", k2: "52148f1042d238849f0a7813f1da8a7b" }]
+  },
+  "tnt2": {
+    url: "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
+    type: "mpd",
+    keys: [{ k1: "f288380ca4cef9ad3f27a92a08e9bb8b", k2: "9f18d26291d9230833501f7f822f6875" }]
+  },
+  "tnt3": {
+    url: "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/5sxuux529k/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
+    type: "mpd",
+    keys: [{ k1: "1d96ab366bbe6451edf7407b58e2fa16", k2: "0116201f4a63ac5bf5787d2c610c41a7" }]
+  },
+  "tnt4": {
+    url: "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+    type: "mpd",
+    keys: [{ k1: "192b1115da041585c77200128549efa1", k2: "634e10efe4abbb14be400a3ccbac0258" }]
+  },
   "tsn": {
     url: "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
     type: "mpd",
