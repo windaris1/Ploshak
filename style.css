@@ -191,17 +191,6 @@ html, body {
     font-size: 18px !important; /* Turun 1px doang */
 }
 
-.live-indicator {
-    padding: 3px 6px !important; /* Tadinya 3px 6px */
-    font-size: 12px !important;
-    gap: 3px !important;
-}
-
-.live-indicator .dot {
-    width: 5px !important;
-    height: 5px !important;
-}
-
 .logo {
     margin: 0 3px !important; /* Tadinya 4px */
 }
