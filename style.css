@@ -182,3 +182,38 @@ html, body {
 .shaka-controls-container {
     display: none !important;
 }
+
+/* ===== OVERRIDE PADDING BIAR LEBIH RAPET ===== */
+.control-button {
+    padding: 4px !important; /* Tadinya 6px */
+    min-width: 28px !important; /* Tadinya 32px */
+    height: 28px !important;
+    font-size: 17px !important; /* Turun 1px doang */
+}
+
+.live-indicator {
+    padding: 2px 5px !important; /* Tadinya 3px 6px */
+    font-size: 10px !important;
+    gap: 3px !important;
+}
+
+.live-indicator .dot {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+.logo {
+    margin: 0 2px !important; /* Tadinya 4px */
+}
+
+.logo img {
+    height: 20px !important; /* Tadinya 22px */
+}
+
+.control-left, .control-right {
+    gap: 6px !important; /* Tadinya 8px */
+}
+
+.video-controls {
+    padding: 8px 10px !important; /* Tadinya 10px 12px */
+}
