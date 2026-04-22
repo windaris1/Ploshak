@@ -41,7 +41,7 @@ function initPlayer() {
     const config = ConfiguracionCanales[id]; // Baca dari index.js
 
     if (!config) {
-        document.getElementById('error').textContent = 'Error...! Silahkan Hub. Admin Sibal TV';
+        document.getElementById('error').textContent = 'Error!! Silahkan Hub. Admin Sibal TV';
         document.getElementById('error').style.display = 'block';
         return;
     }
