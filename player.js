@@ -41,7 +41,7 @@ function initPlayer() {
     const config = ConfiguracionCanales[id]; // Baca dari index.js
 
     if (!config) {
-        document.getElementById('error').textContent = 'Error! Silahkan Hub. Admin Sibal TV';
+        document.getElementById('error').textContent = 'Error!'Silahkan Hub. Admin Siba lTV';
         document.getElementById('error').style.display = 'block';
         return;
     }
@@ -62,7 +62,7 @@ function initPlayer() {
             bufferingGoal: isMobileDevice()? 3 : 5,
             bufferBehind: isMobileDevice()? 5 : 10,
             lowLatencyMode: true,
-            autoStart: false,
+            autoStart: true,
             buffering: {
                 enabled: true,
                 minBufferedTarget: isMobileDevice()? 0.1 : 0.2,
