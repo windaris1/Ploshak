@@ -14,7 +14,7 @@ const ConfiguracionCanales = {
         "type": "m3u8",
         title: "Live"
     },
-  "tnt": {
+  "tnt1": {
     url: "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
     type: "mpd",
     keys: [{ k1: "294b5761cefc22d0c6312939e13d8278", k2: "52148f1042d238849f0a7813f1da8a7b" }]
@@ -34,7 +34,7 @@ const ConfiguracionCanales = {
     type: "mpd",
     keys: [{ k1: "192b1115da041585c77200128549efa1", k2: "634e10efe4abbb14be400a3ccbac0258" }]
   },
-  "tsn": {
+  "tsn1": {
     url: "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
     type: "mpd",
     keys: [{ k1: "e51aa21f2a0fef9aabc120dfb655b52f", k2: "a12a987fe725a40b6be95cd84b15f689" }]
@@ -168,26 +168,6 @@ const ConfiguracionCanales = {
     url: "https://zap-live2-ott.izzigo.tv/1/out/u/dash/ESPN2HD/default.mpd",
     type: "mpd",
     keys: [{ k1: "90e2e491c850a49a5ab21bb6fa6b4d24", k2: "4d7e33da19b971cef49e35eccdb9de0b" }]
-  },
-  "bein1": {
-    url: "https://cors-proxy.cooks.fyi/https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein1)/master.mpd",
-    type: "mpd",
-    keys: [{ k1: "d48b6088253c443eb94d27cb7828f707", k2: "e9776141f9e949273a072b0e035070ab" }]
-  },
-  "bein2": {
-    url: "https://cors-proxy.cooks.fyi/https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein2)/master.mpd",
-    type: "mpd",
-    keys: [{ k1: "efa6ff1acefa43048e8b7adc21d98871", k2: "5d0f448b52a92035e3763c4a60275933" }]
-  },
-  "bein3": {
-    url: "https://cors-proxy.cooks.fyi/https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein3)/master.mpd",
-    type: "mpd",
-    keys: [{ k1: "816ee2f7c19f49ed84276f34541b465b", k2: "ca764a9973b6123a1112cffd3b32010d" }]
-  },
-  "bein4": {
-    url: "https://cors-proxy.cooks.fyi/https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein4)/master.mpd",
-    type: "mpd",
-    keys: [{ k1: "d561ff976397473e9b456b44cdffcdd2", k2: "2b6cff42f7fae7e8bc32f3d5c62dc3c2" }]
   },
   "bein1aus": {
     url: "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
