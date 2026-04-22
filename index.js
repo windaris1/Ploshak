@@ -186,7 +186,7 @@ const ConfiguracionCanales = {
       }
     }
   },
-  "ziggosp": {
+  "ziggo1": {
     url: "https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd?accountinfo=~~V2.0~qbcsJh_jU5C9BcZc959e_wae44b4867b3417aa76b5db2da20fe46c~KZzTWjB8qD1zdgbJjRPVLJX-tV0qiN9RBHC_iseGrsmTSRjj06oGDtGlpSCRGOwF3626cf085c08d024c7e4aafc18c32440:UTC,",
     type: "mpd",
     drm: {
@@ -240,6 +240,42 @@ const ConfiguracionCanales = {
       }
     }
   },
+"sportv1": {
+    url: "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "eaea45512d137def15b209a089cafd14": "8d42db746ed0c4df61729b0d68d42bd7"
+        }
+    }
+},
+"sportv2": {
+    url: "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "9009b7189e3e68cc09d17811f2beb55a": "dd3f96a94c909da48ff40c92aabf8cf3"
+        }
+    }
+},
+"sportv3": {
+    url: "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc.mpd",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "9009b7189e3e68cc09d17811f2beb55a": "dd3f96a94c909da48ff40c92aabf8cf3"
+        }
+    }
+},
+"sportv4": {
+    url: "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "902e5ec0e3d05e665daa32fc23f4f59e": "7b2322a273843921a43e2c61dac7cae3"
+        }
+    }
+},
 "cazetv": {
     url: "https://a56aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase",
     type: "mpd",
