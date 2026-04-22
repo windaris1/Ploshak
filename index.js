@@ -326,5 +326,10 @@ const ConfiguracionCanales = {
     url: "https://cors-proxy.cooks.fyi/https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd",
     type: "mpd",
     keys: [{ k1: "911e72adf36946afbdbb4f80782a8394", k2: "08aec548a851ba64b7172ae7f05cb91c" }]
+  },
+  "sportdigital": {
+    url: "https://otte.bia-cf.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+    type: "mpd",
+    keys: [{ k1: "0ad4080cdff8c60b1233b22087f0b340", k2: "285f129c5eca01dd08a5d5a14ad801c8" }]
   }
 }
