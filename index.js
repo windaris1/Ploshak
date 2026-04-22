@@ -344,8 +344,8 @@ const ConfiguracionCanales = {
     url: "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport2_hd_live/sm_viasport2_hd_live.isml/playlist.mpd",
     type: "mpd",
     keys: [
-      { k1: "b62aca5b566dc3ded74233192b28a120", k1: "e8c5369c9c4aa58c1c8489c7db52db8c" },
-      { k2: "b62aca5b566dc3ded74233192b28a110", k2: "143bfe648cc9d14917d41e0662452771" }
+      { k1: "b62aca5b566dc3ded74233192b28a120", k1: "b62aca5b566dc3ded74233192b28a110" },
+      { k2: "e8c5369c9c4aa58c1c8489c7db52db8c", k2: "143bfe648cc9d14917d41e0662452771" }
     ]
   },
   "vsport3": {
