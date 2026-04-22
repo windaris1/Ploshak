@@ -613,7 +613,7 @@ const ConfiguracionCanales = {
       }
     }
   },
-  "vsportplus": {
+  "vsport4": {
     url: "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport_pluss_hd_live/sm_viasport_pluss_hd_live.isml/playlist.mpd",
     type: "mpd",
     drm: {
