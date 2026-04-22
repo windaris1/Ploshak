@@ -240,6 +240,42 @@ const ConfiguracionCanales = {
       }
     }
   },
+"cazetv": {
+    url: "https://a56aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "34475edab991ad5e92548aebd710410a": "501b209cccd323ac00bf5ac15b406cb4"
+        }
+    }
+},
+"fubo": {
+    url: "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "dc69b6159a0f9f0a4e03b3ff91cbacd5": "d0dcbcd7723bc40df0bf34c9c092d51f"
+        }
+    }
+},
+"fubo2": {
+    url: "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "3dcfbec0e7146928baa55210bf2cb62f": "bc85f74f815d9be5ae1dd6defaa05135"
+        }
+    }
+},
+"laliga": {
+    url: "https://a166aivottlinear-a.akamaihd.net/OTTB/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+    type: "mpd",
+    drm: {
+        clearKeys: {
+            "620e51b82596475517a27aa425c52280": "2b9ba811e9c5aeafc8ae1b71cdca4d6a"
+        }
+    }
+},
   "daznlaliga": {
     url: "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/wjgklbtvhh/out/v1/659736a1e24c40e4865a80ffd75e7de7/cenc.mpd",
     type: "mpd",
