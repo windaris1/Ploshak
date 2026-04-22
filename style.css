@@ -186,7 +186,7 @@ html, body {
 /* ===== OVERRIDE PADDING BIAR LEBIH RAPET ===== */
 .control-button {
     padding: 6px !important; /* Tadinya 6px */
-    min-width: 30px !important; /* Tadinya 32px */
+    min-width: 32px !important; /* Tadinya 32px */
     height: 28px !important;
     font-size: 14px !important; /* Turun 1px doang */
 }
