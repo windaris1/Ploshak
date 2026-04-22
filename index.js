@@ -1,4 +1,9 @@
 const ConfiguracionCanales = {
+"ch1": {
+        "url": "https://live5.msrktz.app/live/14707124.m3u8",
+        "type": "m3u8",
+        title: "Live"
+    },
   "tnt": {
     url: "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
     type: "mpd",
