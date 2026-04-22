@@ -172,7 +172,7 @@ const ConfiguracionCanales = {
   "bein1aus": {
     url: "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
     type: "mpd",
-    keys: [{ k1: "335dad778109954503dcbb21dc92015f", k2: "24bfd75d436cbf73168a2dccd40281" }]
+    keys: [{ k1: "335dad778109954503dcbb21dc92015f", k2: "24bfd75d436cbf73168a2a2dccd40281" }]
   },
   "bein2aus": {
     url: "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
