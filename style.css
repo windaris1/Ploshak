@@ -182,3 +182,8 @@ html, body {
 .shaka-controls-container {
     display: none !important;
 }
+
+
+.control-left, .control-right {
+    gap: 6px !important; /* Tadinya 8px */
+}
