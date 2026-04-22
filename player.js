@@ -41,7 +41,7 @@ function initPlayer() {
     const config = ConfiguracionCanales[id]; // Baca dari index.js
 
     if (!config) {
-        document.getElementById('error').textContent = 'Error!'Silahkan Hub. Admin Siba lTV';
+        document.getElementById('error').textContent = 'Channel tidak ditemukan';
         document.getElementById('error').style.display = 'block';
         return;
     }
