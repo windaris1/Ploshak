@@ -331,5 +331,37 @@ const ConfiguracionCanales = {
     url: "https://otte.bia-cf.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
     type: "mpd",
     keys: [{ k1: "0ad4080cdff8c60b1233b22087f0b340", k2: "285f129c5eca01dd08a5d5a14ad801c8" }]
+  },
+  "vsport1": {
+    url: "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport1_hd_live/sm_viasport1_hd_live.isml/playlist.mpd",
+    type: "mpd",
+    keys: [
+      { k1: "a0e68f01a5428cbdb8cfac2080c66b20", k2: "556d72c812df452fad9bed66292bfc63" },
+      { k1: "a0e68f01a5428cbdb8cfac2080c66b10", k2: "be7f9d1a00bbd0478335a4a48379157d" }
+    ]
+  },
+  "vsport2": {
+    url: "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport2_hd_live/sm_viasport2_hd_live.isml/playlist.mpd",
+    type: "mpd",
+    keys: [
+      { k1: "b62aca5b566dc3ded74233192b28a120", k2: "e8c5369c9c4aa58c1c8489c7db52db8c" },
+      { k1: "b62aca5b566dc3ded74233192b28a110", k2: "143bfe648cc9d14917d41e0662452771" }
+    ]
+  },
+  "vsport3": {
+    url: "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport3_hd_live/sm_viasport3_hd_live.isml/playlist.mpd",
+    type: "mpd",
+    keys: [
+      { k1: "10827657b810ae957f6adc178eca9c20", k2: "3f73e8c9b64b2972bd25859efef7e5ac" },
+      { k1: "10827657b810ae957f6adc178eca9c10", k2: "ca8605499cbdc8e0d2f12898258f8f6e" }
+    ]
+  },
+  "vsport4": {
+    url: "https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport_pluss_hd_live/sm_viasport_pluss_hd_live.isml/playlist.mpd",
+    type: "mpd",
+    keys: [
+      { k1: "5ac608b8804cec0453314a751cdf5f20", k2: "2bfed47e32b19e4ecf3f0692876e4ce5" },
+      { k1: "5ac608b8804cec0453314a751cdf5f10", k2: "a01e1090ee4a41d57dff74a8703e17cf" }
+    ]
   }
 }
