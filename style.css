@@ -130,38 +130,67 @@ html, body {
 }
 
 /* ===== MENU ===== */
-.quality-menu, .context-menu {
-    position: fixed;
-    bottom: 70px;
-    right: 12px;
-    background: rgba(28,28,28,0.98);
-    border-radius: 8px;
-    padding: 8px 0;
-    min-width: 200px;
-    z-index: 10001;
-    display: none;
-}
-
-.quality-menu.active, .context-menu.active {
-    display: block;
+.quality-menu {
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 6px;
+    padding: 6px 0;
+    min-width: 120px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 9999;
+    font-size: 13px;
 }
 
 .quality-menu-title {
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 600;
     color: #aaa;
-    font-size: 12px;
-    padding: 8px 16px;
-    border-bottom: 1px solid #444;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 4px;
 }
 
-.quality-menu-item, .context-menu-item {
-    color: #fff;
-    font-size: 14px;
-    padding: 12px 16px;
+.quality-menu-item {
+    padding: 6px 12px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.2;
 }
 
 .quality-menu-item:hover {
     background: rgba(255,255,255,0.1);
+}
+
+.quality-menu-item i {
+    font-size: 11px;
+    width: 12px;
+}
+
+.quality-menu-item.active {
+    background: rgba(29, 120, 255, 0.3);
+    color: #1d78ff;
+}
+
+/* Biar nggak kepotong di mobile */
+@media (max-width: 480px) {
+    .quality-menu {
+        bottom: 50px;
+        right: 5px;
+        min-width: 100px;
+        font-size: 12px;
+    }
+    .quality-menu-item {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
 }
 
 /* ===== ERROR ===== */
