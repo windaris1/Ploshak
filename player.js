@@ -41,7 +41,7 @@ function initPlayer() {
     const config = ConfiguracionCanales[id]; // Baca dari index.js
 
     if (!config) {
-        document.getElementById('error').textContent = 'Channel tidak ditemukan';
+        document.getElementById('error').textContent = 'Error! Silahkan Hub. Admin Sibal TV';
         document.getElementById('error').style.display = 'block';
         return;
     }
@@ -62,7 +62,7 @@ function initPlayer() {
             bufferingGoal: isMobileDevice()? 3 : 5,
             bufferBehind: isMobileDevice()? 5 : 10,
             lowLatencyMode: true,
-            autoStart: true,
+            autoStart: false,
             buffering: {
                 enabled: true,
                 minBufferedTarget: isMobileDevice()? 0.1 : 0.2,
