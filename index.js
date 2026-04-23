@@ -6,7 +6,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch2": {
-    url: "https://live.bbs456.com/live/12704453_8aca061231da71063e66ce8cde023220.m3u8",
+    url: "https://hls.livelivelive.space/live/4379449.m3u8",
     type: "m3u8",
     title: "Live"
   },
