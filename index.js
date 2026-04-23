@@ -6,7 +6,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch2": {
-    url: "https://hls-ls.cdnok9.com/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587",
+    url: "https://live.alilicloud.com/live/b08b128cd772985178a8ddea344b785d/playlist.m3u8",
     type: "m3u8",
     title: "Live"
   },
