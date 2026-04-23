@@ -1,12 +1,12 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "ch1": {
-    url: "https://live5.msrktz.app/live/14707124.m3u8",
+    url: "https://hls-ls.cdnok9.com/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799",
     type: "m3u8",
     title: "Live"
   },
   "ch2": {
-    url: "https://live5.msrktz.app/live/08552895.m3u8",
+    url: "https://hls-ls.cdnok9.com/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587",
     type: "m3u8",
     title: "Live"
   },
