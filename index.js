@@ -6,12 +6,12 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch2": {
-    url: "https://live.alilicloud.com/live/b08b128cd772985178a8ddea344b785d/playlist.m3u8",
+    url: "https://live.bbs456.com/live/12704453_8aca061231da71063e66ce8cde023220.m3u8",
     type: "m3u8",
     title: "Live"
   },
   "ch3": {
-    url: "https://live5.msrktz.app/live/14707124.m3u8",
+    url: "https://live.bbs456.com/live/12704453_8aca061231da71063e66ce8cde023220.m3u8",
     type: "m3u8",
     title: "Live"
   },
