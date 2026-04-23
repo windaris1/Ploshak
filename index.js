@@ -1,7 +1,7 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "ch1": {
-    url: "https://hls-ls.cdnok9.com/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799",
+    url: "https://live5.msrktz.app/live/02456966.m3u8",
     type: "m3u8",
     title: "Live"
   },
