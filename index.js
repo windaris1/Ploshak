@@ -6,7 +6,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch2": {
-    url: "https://hls.livelivelive.space/live/4379449.m3u8",
+    url: "https://v4-17afc863e4e771f160cb6f614a52fb1c.livehwc4.com/pull.yaokun1985.com/live/9141757_lhd.m3u8?user_session_id=973f8c9a36f9e5ac645cb5ad644b844f&sub_m3u8=true&auth_info=68I7l8ZFjFUXsPtu4uApzCegWJODKXygzYj43mf248Lb5A5vUu3Cu9hrZXlN41PL.564a3056664a434f36456e4530397871&edge_slice=true",
     type: "m3u8",
     title: "Live"
   },
