@@ -1,12 +1,12 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "court1": {
-    url: "https://v4-78db6781fe37bdefc00c3c6eecf7706a.livehwc4.com/pull.yaokun1985.com/live/9143743_lhd.m3u8?sub_m3u8=true&user_session_id=f281761acd3cadae547eee55fa450045&edge_slice=true&auth_info=d9ac31UYTlFulo9SEI3xPGE37GqcoG5sV%2FrXaQhEUNTFvakjY11Ue9IMIS3GnKZ%2B.30624c57334b796c6a4d443376375a34",
+    url: "https://v4-d83e8dc9b3450f5a2962a7b324817603.livehwc4.com/pull.kaobahui.top/live/8873118_lhd.m3u8?edge_slice=true&user_session_id=009f4630af939b0095b28c4b2f6beefa&auth_info=w6s7XlMf%2FLqyTMaPu7tRnjhVq7ns113tcqHtO6Th7CXS8LqaULvhcP%2BJvMUlu%2F4g.4c30416658674e65306d4f6f4e306b61&sub_m3u8=true",
     type: "m3u8",
     title: "Live"
   },
   "court11": {
-    url: "https://v4-17afc863e4e771f160cb6f614a52fb1c.livehwc4.com/pull.yaokun1985.com/live/9141757_lhd.m3u8?user_session_id=973f8c9a36f9e5ac645cb5ad644b844f&sub_m3u8=true&auth_info=68I7l8ZFjFUXsPtu4uApzCegWJODKXygzYj43mf248Lb5A5vUu3Cu9hrZXlN41PL.564a3056664a434f36456e4530397871&edge_slice=true",
+    url: "https://v4-a0504dae9c72cdb02b00ddedf6df4973.livehwc4.com/pull.kaobahui.top/live/8873118_lud.m3u8?sub_m3u8=true&auth_info=a691fP5jvE7RopmIiNipKj%2FOQXl6SM2qpk6XBSQLuejcyCiCHIlR7bXxInn19iLO.794548784634764d43446c5a64757444&user_session_id=0feb8309c9971ceaa4bf35cab766724c&edge_slice=true",
     type: "m3u8",
     title: "Live"
   },
