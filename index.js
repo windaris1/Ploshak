@@ -30,6 +30,16 @@ const ConfiguracionCanales = {
     type: "m3u8",
     title: "Live"
   },
+  "ch1": {
+    url: "https://live.vivo200.com/live/sd-1-4379444.flv?txSecret=e9e300fbc68657132164cc5f8e8344a8&txTime=69EB886D",
+    type: "m3u8",
+    title: "Live"
+  },
+  "ch2": {
+    url: "https://live.vivo200.com/live/sd-1-4379444.flv?txSecret=e9e300fbc68657132164cc5f8e8344a8&txTime=69EB886D",
+    type: "m3u8",
+    title: "Live"
+  },
   "tennis1": {
     url: "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd",
     type: "mpd",
