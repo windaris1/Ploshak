@@ -11,7 +11,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "court2": {
-    url: "https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4187454360838061_AiSD.m3u8?txSecret=3e64de366c2dc2b7173d688b75949fea&txTime=69EC3C40",
+    url: "https://2a6096f50ffc05c7c7766fbd1358fce6.v.smtcdns.net/play.cbalive.weibisai.com/live/4187454360838061_AiSD.m3u8?txSecret=3e64de366c2dc2b7173d688b75949fea&txTime=69EC3C40",
     type: "m3u8",
     title: "Live"
   },
