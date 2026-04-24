@@ -1,7 +1,7 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "court1": {
-    url: "https://v4-d83e8dc9b3450f5a2962a7b324817603.livehwc4.com/pull.kaobahui.top/live/8873118_lhd.m3u8?edge_slice=true&user_session_id=009f4630af939b0095b28c4b2f6beefa&auth_info=w6s7XlMf%2FLqyTMaPu7tRnjhVq7ns113tcqHtO6Th7CXS8LqaULvhcP%2BJvMUlu%2F4g.4c30416658674e65306d4f6f4e306b61&sub_m3u8=true",
+    url: "https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4187454188107061_AiSD.m3u8?txSecret=0f67a23c82af839ece10360f56793c01&txTime=69EC3C40",
     type: "m3u8",
     title: "Live"
   },
