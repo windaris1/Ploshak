@@ -1,7 +1,7 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "court1": {
-    url: "https://liveh34byt.vtvprime.vn/hls/SKSS2/04.m3u8",
+    url: "https://0713546501eefc1afcb0b54d64dcb5b8.v.smtcdns.net/play.cbalive.weibisai.com/live/4200538251234061_AiSD.m3u8?txSecret=41513a23a61b54663d9ca774afc4fc90&txTime=69EC3C40",
     type: "m3u8",
     title: "Live"
   },
