@@ -16,7 +16,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "court22": {
-    url: "https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4187454360838061_AiSD.m3u8?txSecret=3e64de366c2dc2b7173d688b75949fea&txTime=69EC3C40",
+    url: "https://liveh34byt.vtvprime.vn/hls/SKSS3/04.m3u8",
     type: "m3u8",
     title: "Live"
   },
@@ -26,7 +26,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "court33": {
-    url: "https://live5.msrktz.app/live/75915087.m3u8",
+    url: "https://bf.njscwh.com/live/sd-24-5160454.m3u8?txSecret=973c2d77e781782247511f25aef9b168&txTime=69eb1850",
     type: "m3u8",
     title: "Live"
   },
