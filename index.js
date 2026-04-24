@@ -31,7 +31,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch1": {
-    url: "https://live.vivo200.com/live/sd-1-4379444.flv?txSecret=e9e300fbc68657132164cc5f8e8344a8&txTime=69EB886D",
+    url: "https://v4-17afc863e4e771f160cb6f614a52fb1c.livehwc4.com/pull.yaokun1985.com/live/9144211_lhd.m3u8?edge_slice=true&user_session_id=66e81068261f94f4d5bb99f9b24eb5b7&auth_info=uT5bMN%2FKylixIV3dvu9oYrVT0hDJLW%2BZtPCcF9pUXJgYVRnB0FErfTpr4MUnMIQ%2B.584f6c4d34713844796233506837695a&sub_m3u8=true",
     type: "m3u8",
     title: "Live"
   },
