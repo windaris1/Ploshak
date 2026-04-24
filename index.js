@@ -21,7 +21,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "court3": {
-    url: "https://live5.msrktz.app/live/75915087.m3u8",
+    url: "https://v4-a0504dae9c72cdb02b00ddedf6df4973.livehwc4.com/pull.kaobahui.top/live/8873118_lud.m3u8?sub_m3u8=true&auth_info=a691fP5jvE7RopmIiNipKj%2FOQXl6SM2qpk6XBSQLuejcyCiCHIlR7bXxInn19iLO.794548784634764d43446c5a64757444&user_session_id=0feb8309c9971ceaa4bf35cab766724c&edge_slice=true",
     type: "m3u8",
     title: "Live"
   },
