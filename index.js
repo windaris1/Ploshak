@@ -1,12 +1,12 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "court1": {
-    url: "https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4187454188107061_AiSD.m3u8?txSecret=0f67a23c82af839ece10360f56793c01&txTime=69EC3C40",
+    url: "https://liveh34byt.vtvprime.vn/hls/SKSS2/04.m3u8",
     type: "m3u8",
     title: "Live"
   },
   "court11": {
-    url: "https://v4-a0504dae9c72cdb02b00ddedf6df4973.livehwc4.com/pull.kaobahui.top/live/8873118_lud.m3u8?sub_m3u8=true&auth_info=a691fP5jvE7RopmIiNipKj%2FOQXl6SM2qpk6XBSQLuejcyCiCHIlR7bXxInn19iLO.794548784634764d43446c5a64757444&user_session_id=0feb8309c9971ceaa4bf35cab766724c&edge_slice=true",
+    url: "https://liveh34byt.vtvprime.vn/hls/SKSS2/04.m3u8",
     type: "m3u8",
     title: "Live"
   },
