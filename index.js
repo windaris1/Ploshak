@@ -11,7 +11,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "court2": {
-    url: "https://live5.msrktz.app/live/75915087.m3u8",
+    url: "https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4196008550058061_AiSD.m3u8?txSecret=2db6eb32265ef79976a3371a0ca2031f&txTime=69E5A4C0",
     type: "m3u8",
     title: "Live"
   },
