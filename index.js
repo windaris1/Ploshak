@@ -1,16 +1,31 @@
 // Config semua channel
 const ConfiguracionCanales = {
-  "ch1": {
-    url: "https://live5.msrktz.app/live/75915087.m3u8",
+  "court1": {
+    url: "https://v4-78db6781fe37bdefc00c3c6eecf7706a.livehwc4.com/pull.yaokun1985.com/live/9143743_lhd.m3u8?sub_m3u8=true&user_session_id=f281761acd3cadae547eee55fa450045&edge_slice=true&auth_info=d9ac31UYTlFulo9SEI3xPGE37GqcoG5sV%2FrXaQhEUNTFvakjY11Ue9IMIS3GnKZ%2B.30624c57334b796c6a4d443376375a34",
     type: "m3u8",
     title: "Live"
   },
-  "ch2": {
+  "court11": {
     url: "https://v4-17afc863e4e771f160cb6f614a52fb1c.livehwc4.com/pull.yaokun1985.com/live/9141757_lhd.m3u8?user_session_id=973f8c9a36f9e5ac645cb5ad644b844f&sub_m3u8=true&auth_info=68I7l8ZFjFUXsPtu4uApzCegWJODKXygzYj43mf248Lb5A5vUu3Cu9hrZXlN41PL.564a3056664a434f36456e4530397871&edge_slice=true",
     type: "m3u8",
     title: "Live"
   },
-  "ch3": {
+  "court2": {
+    url: "https://live5.msrktz.app/live/75915087.m3u8",
+    type: "m3u8",
+    title: "Live"
+  },
+  "court22": {
+    url: "https://live5.msrktz.app/live/75915087.m3u8",
+    type: "m3u8",
+    title: "Live"
+  },
+  "court3": {
+    url: "https://live5.msrktz.app/live/75915087.m3u8",
+    type: "m3u8",
+    title: "Live"
+  },
+  "court33": {
     url: "https://live5.msrktz.app/live/75915087.m3u8",
     type: "m3u8",
     title: "Live"
