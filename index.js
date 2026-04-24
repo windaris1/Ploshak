@@ -31,7 +31,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch1": {
-    url: "https://v4-17afc863e4e771f160cb6f614a52fb1c.livehwc4.com/pull.yaokun1985.com/live/9144211_lhd.m3u8?edge_slice=true&user_session_id=66e81068261f94f4d5bb99f9b24eb5b7&auth_info=uT5bMN%2FKylixIV3dvu9oYrVT0hDJLW%2BZtPCcF9pUXJgYVRnB0FErfTpr4MUnMIQ%2B.584f6c4d34713844796233506837695a&sub_m3u8=true",
+    url: "https://v4-17afc863e4e771f160cb6f614a52fb1c.livehwc4.com/pull.yaokun1985.com/live/9144195_lhd.m3u8?edge_slice=true&sub_m3u8=true&user_session_id=a9d0796208628a8741b724e881bd7ed4&auth_info=yxRyzoHhXEPuiY5pO35LdhDfIo1UNqz3yWs3URiTibDjocmM6WaT%2BleHm3W1B3zS.6f394c65537266555748307147586937",
     type: "m3u8",
     title: "Live"
   },
