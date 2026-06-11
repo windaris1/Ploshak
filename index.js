@@ -25,6 +25,51 @@ const ConfiguracionCanales = {
     type: "mpd",
     title: "Live"
   },
+"tvela1": {
+  "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/62qdkefv9f/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "fd86dde0ae3e14ff51c8fc8f248a50db": "d106ae78b0893da2e4393ece99420baa"
+    }
+  }
+},
+"tvelaw": {
+  "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/arv0kf9ndp/out/v1/aa299e8d19994d78b35977495064e64c/cenc.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "92eb4fb693ddc7b72909828ad62cdff5": "0b6f7e58c4566ca418447332b228d488"
+    }
+  }
+},
+"canale5": {
+  "url": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "00f9f3c0783536b8ce4a30a01a52e082": "e926f7d45af4f7d154c990eae6a2d937"
+    }
+  }
+},
+"winsport": {
+  "url": "https://362a33c2a385d7d1e52d89d18399caac6d7e6240.cdn.broadpeak.io/bcdn_token=wXlMk40i_LOJw5y19yOWR4ruebz_N230AvoPwGf4gn4&token_ignore_params=true&token_path=%2Fout%2Fv1%2F1f375ac45935404eb603d44841ced543%2F&expires=1772589651/out/v1/1f375ac45935404eb603d44841ced543/index.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "19ca642b3eba4f4d81637667a04fdd9e": "a18d219ded2ebfa8f41db4a110324a9e"
+    }
+  }
+},
+"jojsport": {
+  "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "11223344556677889900112233445566": "4b80724d0ef86bcb2c21f7999d67739d"
+    }
+  }
+},
   "tnt1": {
     url: "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
     type: "mpd",
