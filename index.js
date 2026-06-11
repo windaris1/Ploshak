@@ -34,6 +34,24 @@ const ConfiguracionCanales = {
     }
   }
 },
+"caze1": {
+  "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/jo3rmhhp2r/out/v1/50656942ce4e40a1be824c9d83578fe9/cenc.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "34475edab991ad5e92548aebd710410a": "501b209cccd323ac00bf5ac15b406cb4"
+    }
+  }
+},
+"caze2": {
+  "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/a6bxtdgxts/out/v1/691e8c4b528d4e45b893a9e2e516211b/cenc.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "9752ef72590ef441ffa3731e0486fbc0": "db63ec7b9f11348b7cc6808a54c99457"
+    }
+  }
+},
 "tvela1": {
   "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/62qdkefv9f/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
   "type": "mpd",
