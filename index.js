@@ -36,7 +36,12 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch2": {
-    url: "https://live.vivo200.com/live/sd-1-4379444.flv?txSecret=e9e300fbc68657132164cc5f8e8344a8&txTime=69EB886D",
+    url: "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df",
+    type: "m3u8",
+    title: "Live"
+  },
+  "ch3": {
+    url: "https://tfwn1gr4dymttgwanhcjofaaugptpqt1ga4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8?wsSession=1b592aacb468c07f6bc75ce6-178118280985345&wsIPSercert=955ce601480b33ffb312844556771c04&wsBindIP=2&wsserid=1168271552032030087",
     type: "m3u8",
     title: "Live"
   },
