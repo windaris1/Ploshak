@@ -31,7 +31,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch1": {
-    url: "https://tfwn1gr3uomttgr31hctw8rzdncbpqt1ga4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8?wsSession=8dc6136f1db14acf8a4d7cc8-178118222005317&wsIPSercert=5a1056afa32cdaa2cbac2ec589ab3058&wsBindIP=2&wsserid=1168235407083771445",
+    url: "https://tfwn1gr3uomttgr31hctw8rzdncbpqt1ga4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8?wsSession=8dc6136f1db14acf8a4d7cc8-178118304559739&wsIPSercert=5a1056afa32cdaa2cbac2ec589ab3058&wsBindIP=2&wsserid=1168235407083771445",
     type: "m3u8",
     title: "Live"
   },
