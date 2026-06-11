@@ -25,7 +25,7 @@ const ConfiguracionCanales = {
     type: "mpd",
     title: "Live"
   },
-itv1": {
+"itv1": {
   "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/slc1dkcymj/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
   "type": "mpd",
   "drm": {
