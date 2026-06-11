@@ -25,6 +25,15 @@ const ConfiguracionCanales = {
     type: "mpd",
     title: "Live"
   },
+itv1": {
+  "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/slc1dkcymj/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "b6c1c527303bc577b85eb849cbab75d2": "ec533d484c550a892ff162e4a5f4dbc3"
+    }
+  }
+},
 "tvela1": {
   "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/62qdkefv9f/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
   "type": "mpd",
