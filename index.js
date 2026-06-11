@@ -1,35 +1,5 @@
 // Config semua channel
 const ConfiguracionCanales = {
-  "court1": {
-    url: "https://0713546501eefc1afcb0b54d64dcb5b8.v.smtcdns.net/play.cbalive.weibisai.com/live/4200538251234061_AiSD.m3u8?txSecret=41513a23a61b54663d9ca774afc4fc90&txTime=69EC3C40",
-    type: "m3u8",
-    title: "Live"
-  },
-  "court11": {
-    url: "https://liveh34byt.vtvprime.vn/hls/SKSS2/04.m3u8",
-    type: "m3u8",
-    title: "Live"
-  },
-  "court2": {
-    url: "https://2a6096f50ffc05c7c7766fbd1358fce6.v.smtcdns.net/play.cbalive.weibisai.com/live/4187454360838061_AiSD.m3u8?txSecret=3e64de366c2dc2b7173d688b75949fea&txTime=69EC3C40",
-    type: "m3u8",
-    title: "Live"
-  },
-  "court22": {
-    url: "https://liveh34byt.vtvprime.vn/hls/SKSS3/04.m3u8",
-    type: "m3u8",
-    title: "Live"
-  },
-  "court3": {
-    url: "https://v4-a0504dae9c72cdb02b00ddedf6df4973.livehwc4.com/pull.kaobahui.top/live/8873118_lud.m3u8?sub_m3u8=true&auth_info=a691fP5jvE7RopmIiNipKj%2FOQXl6SM2qpk6XBSQLuejcyCiCHIlR7bXxInn19iLO.794548784634764d43446c5a64757444&user_session_id=0feb8309c9971ceaa4bf35cab766724c&edge_slice=true",
-    type: "m3u8",
-    title: "Live"
-  },
-  "court33": {
-    url: "https://bf.njscwh.com/live/sd-24-5160454.m3u8?txSecret=973c2d77e781782247511f25aef9b168&txTime=69eb1850",
-    type: "m3u8",
-    title: "Live"
-  },
   "ch1": {
     url: "https://tfwn1gr3uomttgr31hctw8rzdncbpqt1ga4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8?wsSession=8dc6136f1db14acf8a4d7cc8-178118304559739&wsIPSercert=5a1056afa32cdaa2cbac2ec589ab3058&wsBindIP=2&wsserid=1168235407083771445",
     type: "m3u8",
