@@ -1,7 +1,7 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "ch1": {
-    url: "https://tfwn1gr3uomttgr31hctw8rzdncbpqt1ga4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8?wsSession=8dc6136f1db14acf8a4d7cc8-178118304559739&wsIPSercert=5a1056afa32cdaa2cbac2ec589ab3058&wsBindIP=2&wsserid=1168235407083771445",
+    url: "https://pop14-ec2-ateme.tv360.vn/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzgxMjA5Mzk1Iiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy8zNzkvSExTX0NsZWFuX01ITF8ycy8iLCJzZXNzaW9uX2Nkbl9pZCI6ImFiOGQ1MWFhYjMzNjhlODAiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE3Mi4yNC4xNzMuMTk2Iiwic2Vzc2lvbl90aW1lb3V0IjowLCJhdWQiOiIxMzciLCJzb3VyY2VzIjpbNDk1XX0=.-DBODRDPt6PE71llHH-Sb57pqA3vTGpQ-xe5EtNkt-U_jwbz3Zh2SH-xvup3-PQATe-I7IGzCU4aTfv4Vr71vw==/live/eds/379/HLS_Clean_MHL_2s/379-avc1_1000000=10000-mp4a_206000_eng=20000.m3u8",
     type: "m3u8",
     title: "Live"
   },
