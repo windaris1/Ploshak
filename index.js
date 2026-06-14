@@ -1,7 +1,7 @@
 // Config semua channel
 const ConfiguracionCanales = {
   "ch1": {
-    url: "https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b4096000_slENG.m3u8",
+    url: "https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8",
     type: "m3u8",
     title: "Live"
   },
@@ -31,6 +31,15 @@ const ConfiguracionCanales = {
   "drm": {
     "clearKeys": {
       "b6c1c527303bc577b85eb849cbab75d2": "ec533d484c550a892ff162e4a5f4dbc3"
+    }
+  }
+},
+"fiftv": {
+  "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "549ab7cd35a64bb6bb479ecead04d69d": "829799ed534d11fcadeb4b192467e050"
     }
   }
 },
