@@ -20,6 +20,11 @@ const ConfiguracionCanales = {
     type: "m3u8",
     title: "Live"
   },
+  "ch5": {
+    url: "https://2a6096f50ffc05c7c7766fbd1358fce6.v.smtcdns.net/play.cbalive.weibisai.com/live/4221837606861061_AiHD.m3u8?txSecret=ffcb51e4a414fb23d5fe2f36cb1457a6&txTime=6A2F4080",
+    type: "m3u8",
+    title: "Live"
+  },
   "tennis1": {
     url: "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd",
     type: "mpd",
