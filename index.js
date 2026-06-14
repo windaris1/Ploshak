@@ -15,6 +15,11 @@ const ConfiguracionCanales = {
     type: "m3u8",
     title: "Live"
   },
+  "ch4": {
+    url: "https://tfwq1gr3uomttgr31hctugyzdgc3ppbasa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8?wsSession=054c03df1f1ddd2a991a2e6f-178140919004597&wsIPSercert=2dea91cf508e6644a6ce29b704304369&wsBindIP=2&wsserid=1168267649954480488",
+    type: "m3u8",
+    title: "Live"
+  },
   "tennis1": {
     url: "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd",
     type: "mpd",
