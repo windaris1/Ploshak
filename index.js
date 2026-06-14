@@ -58,7 +58,7 @@ const ConfiguracionCanales = {
   "type": "mpd",
   "drm": {
     "clearKeys": {
-      "7fc352fa54683accf20b12f679027661": 993400c4b5ad851c8d6368417d6a3b4c"
+      "7fc352fa54683accf20b12f679027661": "993400c4b5ad851c8d6368417d6a3b4c"
     }
   }
 },
