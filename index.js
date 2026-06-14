@@ -11,7 +11,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch3": {
-    url: "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df",
+    url: "https://tfwq1gr3uomttgr31hctugyzdgptppbasa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8?wsSession=054c03df1f1ddd2a991a2e6f-178140904629378&wsIPSercert=2dea91cf508e6644a6ce29b704304369&wsBindIP=2&wsserid=1168267649954480488",
     type: "m3u8",
     title: "Live"
   },
