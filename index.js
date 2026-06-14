@@ -6,7 +6,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch2": {
-    url: "https://akariko.netgenx.site/stream/jp/nhk_bs4k/stream-output.m3u8?mode=hls",
+    url: "https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8",
     type: "m3u8",
     title: "Live"
   },
