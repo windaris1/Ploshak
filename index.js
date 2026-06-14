@@ -16,7 +16,7 @@ const ConfiguracionCanales = {
     title: "Live"
   },
   "ch4": {
-    url: "https://tfwq1gr3uomttgr31hctugyzdgc3ppbasa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8?wsSession=054c03df1f1ddd2a991a2e6f-178140919004597&wsIPSercert=2dea91cf508e6644a6ce29b704304369&wsBindIP=2&wsserid=1168267649954480488",
+    url: "https://mobilelive-test.ysp.cctv.cn/ysp/2031101401_hd.m3u8",
     type: "m3u8",
     title: "Live"
   },
