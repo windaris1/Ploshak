@@ -35,12 +35,39 @@ const ConfiguracionCanales = {
     type: "mpd",
     title: "Live"
   },
-"itv1": {
-  "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/slc1dkcymj/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+"tipik": {
+  "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
   "type": "mpd",
   "drm": {
     "clearKeys": {
-      "b6c1c527303bc577b85eb849cbab75d2": "ec533d484c550a892ff162e4a5f4dbc3"
+      "adca25b8779e4168a0cd710f59f61ccf": "be5383ed3cd8079f4ffe78ad067f476a"
+    }
+  }
+},
+"fusbal": {
+  "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "1cb20afcd9d979c833cfd208c7d3eeb2": "fef0c15b4a523370892edd5e4133c269"
+    }
+  }
+},
+"zdf": {
+  "url": "https://fl-003.live.p7s1video.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "7fc352fa54683accf20b12f679027661": 993400c4b5ad851c8d6368417d6a3b4c"
+    }
+  }
+},
+"caracoltv": {
+  "url": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/c1464dd58d504cd2a3095a1e13adc28c/d97743de3620a865848fff7a9de14dda1bf2409d/session/f3ff5f07-e0ee-4841-9794-164385a77161/manifest.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "1c6bfd8d1cdd4df69ea5fc4dd2f025bb": b6fd90027dac7a94a9461f8b2638cbb4"
     }
   }
 },
