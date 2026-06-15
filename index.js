@@ -35,6 +35,15 @@ const ConfiguracionCanales = {
     type: "mpd",
     title: "Live"
   },
+"fox1": {
+  "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+  "type": "mpd",
+  "drm": {
+    "clearKeys": {
+      "f6564ec2aee819046328a0e153be574d": "ff46a8a1031eb27ef22576a077c98ab7"
+    }
+  }
+},
 "dspot": {
   "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
   "type": "mpd",
